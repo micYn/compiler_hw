@@ -1,0 +1,4 @@
+#!/usr/bin/tcsh
+foreach filename (`ls $2`)
+	./$1 < ./$2/$filename
+end
